@@ -1,0 +1,33 @@
+{
+  "name": "daox-api",
+  "version": "1.0.0",
+  "description": "This package contains all contracts which are needed to create your personal service for Daox platform",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daox/daox-api.git"
+  },
+  "keywords": [
+    "api",
+    "solidity",
+    "daox",
+    "smart-contracts",
+    "contracts",
+    "contract",
+    "smart-contract",
+    "ethereum"
+  ],
+  "author": "Anton Vityazev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daox/daox-api/issues"
+  },
+  "homepage": "https://github.com/daox/daox-api#readme",
+  "dependencies": {
+    "zeppelin-solidity": "1.3.0",
+    "web3": "1.0.0-beta.24"
+  }
+}
