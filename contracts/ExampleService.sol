@@ -14,11 +14,11 @@ contract ExampleService is BaseService {
         address dao = IProxyAPI(msg.sender).availableCalls(this);
         callDeposit[dao] -= priceToCall;
         uint multiplier = TypesConverter.bytes32ToUint(args[0]);
-        uint newVotingPrice = IDAO(dao).votingPrice() * multiplier;
+        uint newVotingPrice = 2 * multiplier;
         IProxyAPI(msg.sender).callDAOSetter("setVotingPrice", TypesConverter.uintToBytes32(newVotingPrice));
     }
 
-    function changeName(bytes32[10] args) onlyProxyAPI onlyConnected canCall {
+    function changeName(bytes32[10] args) onlyProxyAPI onlyConnected {
         IProxyAPI(msg.sender).callDAOSetter("setName", args[0]);
     }
 }
