@@ -12,9 +12,9 @@ contract BaseService {
     address public owner;
     /* Address of proxyAPI contract which provides interaction between DAOs and service */
     address public proxyAPI;
-    /* Price in weis which DAO must pay to connect service. Can be set to 0 if you want to make connection of your service free */
+    /* Price in DXC which DAO must pay to connect service. Can be set to 0 if you want to make connection of your service free */
     uint public priceToConnect;
-    /* Price in weis which DAO must pay to call service's method. Can be set to 0 if you want to make calls to your service free */
+    /* Price in DXC which DAO must pay to call service's method. Can be set to 0 if you want to make calls to your service free */
     uint public priceToCall;
     /* List of DAOs which connected service */
     mapping(address => bool) public daos;
