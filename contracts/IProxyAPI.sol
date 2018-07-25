@@ -1,4 +1,7 @@
-pragma solidity ^0.4.0;
+/*
+    This interface describes all needed functions from ProxyAPI contract.
+*/
+pragma solidity 0.4.24;
 
 interface IProxyAPI {
     function availableCalls(address _this) constant returns(address);

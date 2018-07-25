@@ -1,5 +1,5 @@
-/**
-    This contract is needed only for tests. It imitates proxy contract which sends requests from dao to service and back.
+/*
+  This contract is needed only for tests. It imitates proxy contract which sends requests from dao to service and back.
 */
 pragma solidity 0.4.24;
 
