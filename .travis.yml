@@ -7,4 +7,4 @@ before_script:
   - npm i && npm i -g truffle ganache-cli
 
 script:
-  - bash ganache-cli -p 8546 && truffle compile && truffle test
+  - bash ganache-cli -p 8546 & truffle compile && truffle test
