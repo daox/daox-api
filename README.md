@@ -11,18 +11,44 @@ Prices can be set to 0 if service must be free to use.
 
 Install
 -------
+##Github
 
 ### Clone the repository:
-
 ```bash
 git clone https://github.com/daox/daox-api.git
 cd daox-api
 ```
 
 ### Install requirements with npm:
-
 ```bash
 npm i
+```
+
+### Import needed contracts
+Needed contracts now can be imported like this:
+```solidity
+import './daox-api/contracts/BaseService.sol';
+```
+
+##NPM
+
+### Install package using npm
+```bash
+npm i -S daox-api
+```
+
+### Import needed contracts
+Needed contracts now can be imported like this:
+```solidity
+import '../node_modules/daox-api/contracts/BaseService.sol';
+```
+
+Running tests
+-------------
+### Go to directory
+
+```bash 
+cd /path/to/daox/api
 ```
 
 ### Install truffle and ganache-cli for testing and compiling:
@@ -31,8 +57,6 @@ npm i
 npm i -g truffle ganache-cli
 ```
 
-Testing
--------------------
 ### Run all tests (will automatically run ganache-cli in the background):
 
 ```bash
@@ -40,7 +64,7 @@ npm test
 ```
 
 Compile
-------------------
+-------
 ### Compile all contracts:
 
 ```bash
