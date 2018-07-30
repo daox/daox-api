@@ -11,7 +11,7 @@ Prices can be set to 0 if service must be free to use.
 
 Install
 -------
-##Github
+## Github
 
 ### Clone the repository:
 ```bash
@@ -30,7 +30,7 @@ Needed contracts now can be imported like this:
 import './daox-api/contracts/BaseService.sol';
 ```
 
-##NPM
+## NPM
 
 ### Install package using npm
 ```bash
