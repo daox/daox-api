@@ -1,6 +1,6 @@
 {
   "name": "daox-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package contains all contracts which are needed to create your personal service for Daox platform",
   "main": "truffle.js",
   "scripts": {
